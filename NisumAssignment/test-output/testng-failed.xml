@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="nisumTestCases.NisumScenarioTest">
+        <methods>
+          <include name="Scenario"/>
+          <include name="teardown"/>
+          <include name="setuup"/>
+        </methods>
+      </class> <!-- nisumTestCases.NisumScenarioTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
